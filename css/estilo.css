@@ -1,0 +1,32 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');   /*'Raleway', sans-serif;*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Raleway', sans-serif, 'Calibri';
+}
+/*header*/
+#cabecera{
+    width: 100%;
+    height:auto;
+    margin: 0px auto;
+    border: 1px solid black;  /*El borde solo es de prueba para ver su orientacion y posicion*/
+}
+.logo{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+/*menu*/
+.menu{
+    width: 70%;
+    background: gray;
+}
